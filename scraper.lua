@@ -1,6 +1,8 @@
 -- 
 -- scraper.lua
 -- 
+-- Script designed for scraping Wowhead pet data and massaging it into a format usable by addons.
+-- 
 -- Usage: lua5.3 scraper.lua
 -- 
 
@@ -414,4 +416,4 @@ local HunterData = {
 }
 
 -- Abuse Inspect to write-out a valid Lua table as a string
-writeFile("HunterData.lua", string.gsub(Inspect(HunterData), "^{", "HunterData = {"))
+writeFile("HunterDataTable.lua", string.gsub(Inspect(HunterData), "^{", "HunterDataTable = {"))

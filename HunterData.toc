@@ -3,4 +3,7 @@
 ## Author: rmaldoom
 ## Version: 1.0
 
+embeds.xml
+
+HunterDataTable.lua
 HunterData.lua
