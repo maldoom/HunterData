@@ -25,7 +25,7 @@ end
 -- @return               {table|nil}  A table of spellIds or nil if the pet family was not found
 function HunterData:getPetSpellsByPetId(petFamilyId)
   if tableKeyExists(HunterPetData.Pets, petFamilyId) then
-    return HunterPetData.Pets[petId].spells
+    return HunterPetData.Pets[petFamilyId].spells
   else
     return nil
   end
