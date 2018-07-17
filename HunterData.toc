@@ -1,7 +1,7 @@
 ## Interface: 70300
 ## Title: Hunter Data
 ## Author: rmaldoom
-## Version: 1.0
+## Version: 1.0.0
 
 embeds.xml
 
