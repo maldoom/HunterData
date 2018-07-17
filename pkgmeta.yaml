@@ -1,0 +1,4 @@
+package-as: HunterData
+ignore:
+  - scraper.lua
+license-output: LICENSE
