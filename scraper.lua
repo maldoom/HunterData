@@ -353,7 +353,11 @@ end
 -- Execution Begins
 -------------------------------------------------------------------------------
 
-local hunterPetAbilitiesUrl = "http://www.wowhead.com/hunter-pet-abilities/live-only:on"
+-- @TODO - Rework this so it dynamically follows links and handles paged content
+local hunterPetAbilitiesUrls = {
+  "http://www.wowhead.com/hunter-pet-abilities/live-only:on",
+  "http://www.wowhead.com/hunter-pet-abilities/live-only:on#50+1+17+2"
+}
 -- local hunterPetAbilitiesUrl = "http://www.wowhead.com/hunter-pet-abilities/live-only:off"
 local hunterPetAbilitiesData
 local hunterPetAbilitiesTable = {}
@@ -368,11 +372,13 @@ Lfs.mkdir(getCacheDirectory())
 
 -- Go get the hunter pet abilities from Wowhead
 -- io.write("Parsing hunter pet abilities ... ")
-if dataIsCached(hunterPetAbilitiesUrl) then
-  hunterPetAbilitiesData = readCachedData(hunterPetAbilitiesUrl)
-else
-  hunterPetAbilitiesData = downloadData(hunterPetAbilitiesUrl)
-  cacheData(hunterPetAbilitiesUrl, hunterPetAbilitiesData)
+for _, hunterPetAbilitiesUrl in pairs(hunterPetAbilitiesUrls) do
+  if dataIsCached(hunterPetAbilitiesUrl) then
+    hunterPetAbilitiesData = readCachedData(hunterPetAbilitiesUrl)
+  else
+    hunterPetAbilitiesData = downloadData(hunterPetAbilitiesUrl)
+    cacheData(hunterPetAbilitiesUrl, hunterPetAbilitiesData)
+  end
 end
 -- io.write("DONE! \n")
 -- print(Inspect(hunterPetAbilitiesData))
@@ -416,4 +422,5 @@ local HunterData = {
 }
 
 -- Abuse Inspect to write-out a valid Lua table as a string
-writeFile("HunterDataTable.lua", string.gsub(Inspect(HunterData), "^{", "HunterDataTable = {"))
+writeFile("HunterDataTable.lua", string.gsub(Inspect(HunterData), "^{", "function getHunterDataTable() return {"))
+-- @TODO - Automatically add the end block
