@@ -6,12 +6,12 @@
 -- Usage: lua5.3 scraper.lua
 -- 
 
-local Inspect = require("inspect")
-local Json = require("json")
-local HtmlParser = require("htmlparser")
-local HttpRequest = require("http.request")
-local Socket = require("socket")
-local Lfs = require("lfs")
+local Inspect = require("inspect")           -- inspect
+local Json = require("lunajson")             -- lunajson
+local HtmlParser = require("htmlparser")     -- htmlparser
+local HttpRequest = require("http.request")  -- http (requires system m4 openssl libssl-dev)
+local Socket = require("socket")             -- luasocket
+local Lfs = require("lfs")                   -- luafilesystem
 
 local function snakeCase(s)
   -- Remove extraneous spaces, dashes, and underscores from the beginning

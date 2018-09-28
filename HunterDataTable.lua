@@ -24,8 +24,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Raptor",
-        spells = { "16827", "263854" },
-        type = 0
+        spells = { "263854", "16827" },
+        type = 2
       },
       ["12"] = {
         armor = 5,
@@ -37,7 +37,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Tallstrider",
-        spells = { "50285", "16827" },
+        spells = { "16827", "50285" },
         type = 0
       },
       ["125"] = {
@@ -51,8 +51,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Crane",
-        spells = { "49966", "126259", "264028" },
-        type = 2
+        spells = { "264028", "126259", "49966" },
+        type = 1
       },
       ["126"] = {
         armor = 5,
@@ -80,8 +80,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Rodent",
-        spells = { "16827", "126364", "263856" },
-        type = 1
+        spells = { "126364", "16827", "263856" },
+        type = 2
       },
       ["128"] = {
         armor = 5,
@@ -95,8 +95,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Quilen",
-        spells = { "160049", "267922", "17253" },
-        type = 0
+        spells = { "267922", "17253", "160049" },
+        type = 1
       },
       ["129"] = {
         armor = 5,
@@ -109,8 +109,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Goat",
-        spells = { "49966", "263921" },
-        type = 0
+        spells = { "263921", "49966" },
+        type = 2
       },
       ["130"] = {
         armor = 5,
@@ -140,20 +140,6 @@ function getHunterDataTable()
         spells = { "263861", "17253" },
         type = 1
       },
-      ["149"] = {
-        armor = 5,
-        damage = 5,
-        diet = 195,
-        expansion = 5,
-        health = 5,
-        icon = "ability_mount_ironchimera",
-        id = 149,
-        maxlevel = 0,
-        minlevel = 0,
-        name = "Rylak",
-        spells = { "17253" },
-        type = 2
-      },
       ["150"] = {
         armor = 5,
         damage = 5,
@@ -180,7 +166,7 @@ function getHunterDataTable()
         minlevel = 0,
         name = "Stag",
         spells = { "49966", "264266" },
-        type = 0
+        type = 1
       },
       ["154"] = {
         armor = 5,
@@ -208,7 +194,7 @@ function getHunterDataTable()
         minlevel = 0,
         name = "Scalehide",
         spells = { "49966", "263865" },
-        type = 1
+        type = 0
       },
       ["157"] = {
         armor = 5,
@@ -221,7 +207,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Oxen",
-        spells = { "49966", "264023" },
+        spells = { "264023", "49966" },
         type = 1
       },
       ["160"] = {
@@ -235,7 +221,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Feathermane",
-        spells = { "263916", "160007" },
+        spells = { "160007", "17253", "263916" },
         type = 1
       },
       ["2"] = {
@@ -248,7 +234,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Cat",
-        spells = { "24450", "16827", "263892" },
+        spells = { "263892", "24450", "16827" },
         type = 0
       },
       ["20"] = {
@@ -261,8 +247,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Scorpid",
-        spells = { "16827", "160060" },
-        type = 1
+        spells = { "160060", "16827" },
+        type = 0
       },
       ["21"] = {
         armor = 5,
@@ -313,7 +299,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Bird of Prey",
-        spells = { "16827", "263852", "94022" },
+        spells = { "94022", "263852", "16827" },
         type = 2
       },
       ["27"] = {
@@ -340,7 +326,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Lizard",
-        spells = { "279362" },
+        spells = { "17253", "279362" },
         type = 1
       },
       ["290"] = {
@@ -355,7 +341,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Pterrordax",
-        spells = { "160007", "279399" },
+        spells = { "160007", "17253", "279399" },
         type = 2
       },
       ["291"] = {
@@ -369,7 +355,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Toad",
-        spells = { "279336" },
+        spells = { "49966", "279336" },
         type = 1
       },
       ["292"] = {
@@ -384,7 +370,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Krolusk",
-        spells = { "279410", "279254" },
+        spells = { "279254", "17253", "279410" },
         type = 1
       },
       ["3"] = {
@@ -398,7 +384,7 @@ function getHunterDataTable()
         minlevel = 0,
         name = "Spider",
         spells = { "160067", "17253" },
-        type = 2
+        type = 0
       },
       ["30"] = {
         armor = 5,
@@ -440,7 +426,7 @@ function getHunterDataTable()
         minlevel = 0,
         name = "Warp Stalker",
         spells = { "35346", "17253" },
-        type = 1
+        type = 2
       },
       ["33"] = {
         armor = 5,
@@ -453,7 +439,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Sporebat",
-        spells = { "49966", "264056" },
+        spells = { "264056", "49966" },
         type = 2
       },
       ["34"] = {
@@ -467,8 +453,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Nether Ray",
-        spells = { "17253" },
-        type = 2
+        spells = { "17253", "264264" },
+        type = 0
       },
       ["35"] = {
         armor = 5,
@@ -480,7 +466,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Serpent",
-        spells = { "263904", "17253" },
+        spells = { "17253", "263904" },
         type = 2
       },
       ["37"] = {
@@ -494,8 +480,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Moth",
-        spells = { "49966", "264055" },
-        type = 0
+        spells = { "264055", "49966" },
+        type = 2
       },
       ["38"] = {
         armor = 5,
@@ -509,8 +495,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Chimaera",
-        spells = { "92380", "54644", "17253" },
-        type = 2
+        spells = { "54644", "92380", "17253" },
+        type = 0
       },
       ["39"] = {
         armor = 5,
@@ -524,7 +510,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Devilsaur",
-        spells = { "159953", "54680", "17253" },
+        spells = { "159953", "17253", "54680" },
         type = 0
       },
       ["4"] = {
@@ -537,7 +523,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Bear",
-        spells = { "94019", "16827", "263934" },
+        spells = { "94019", "263934", "16827" },
         type = 1
       },
       ["41"] = {
@@ -552,7 +538,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Silithid",
-        spells = { "160065", "16827", "280151" },
+        spells = { "280151", "160065", "16827" },
         type = 2
       },
       ["42"] = {
@@ -581,8 +567,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Clefthoof",
-        spells = { "49966", "160057", "280069" },
-        type = 1
+        spells = { "280069", "49966", "160057" },
+        type = 0
       },
       ["44"] = {
         armor = 5,
@@ -610,7 +596,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Core Hound",
-        spells = { "159788", "263867", "17253" },
+        spells = { "263867", "159788", "17253" },
         type = 0
       },
       ["46"] = {
@@ -625,8 +611,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Spirit Beast",
-        spells = { "90361", "16827", "264265", "90328" },
-        type = 0
+        spells = { "90328", "90361", "264265", "16827" },
+        type = 1
       },
       ["5"] = {
         armor = 5,
@@ -652,8 +638,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Fox",
-        spells = { "160011", "90347", "17253" },
-        type = 0
+        spells = { "160011", "17253", "90347" },
+        type = 2
       },
       ["51"] = {
         armor = 5,
@@ -666,7 +652,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Monkey",
-        spells = { "49966", "160044" },
+        spells = { "160044", "49966" },
         type = 2
       },
       ["52"] = {
@@ -694,7 +680,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Beetle",
-        spells = { "90339", "17253" },
+        spells = { "17253", "90339" },
         type = 1
       },
       ["55"] = {
@@ -709,7 +695,7 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Shale Spider",
-        spells = { "279259", "160063", "17253" },
+        spells = { "17253", "160063", "279259" },
         type = 2
       },
       ["6"] = {
@@ -722,8 +708,8 @@ function getHunterDataTable()
         maxlevel = 0,
         minlevel = 0,
         name = "Crocolisk",
-        spells = { "50433", "17253" },
-        type = 1
+        spells = { "17253", "50433" },
+        type = 0
       },
       ["68"] = {
         armor = 5,
@@ -776,7 +762,7 @@ function getHunterDataTable()
         minlevel = 0,
         name = "Gorilla",
         spells = { "49966", "263939" },
-        type = 1
+        type = 0
       }
     },
     Spells = {
@@ -843,7 +829,7 @@ function getHunterDataTable()
         dispelType = "n/a",
         duration = "n/a",
         effect1 = {
-          description = "Apply Aura: Proc Trigger Spell (AP mod: 0.5)",
+          description = "Apply Aura: Proc Trigger Spell\nValue: 1 (AP mod: 0.0819)",
           spellId = "159786",
           spellName = "Molten Hide"
         },
@@ -865,7 +851,7 @@ function getHunterDataTable()
         cost = "None",
         dispelType = "n/a",
         duration = "n/a",
-        effect = "Dummy\nRadius: 5 yards\nServer-side script\n",
+        effect = "Dummy (SP mod: 0.25)\nRadius: 5 yards\nServer-side script\n",
         flags = { "Does not require shapeshift" },
         gcd = "1 second",
         gcdCategory = "Normal",
@@ -898,10 +884,10 @@ function getHunterDataTable()
       },
       ["160011"] = {
         castTime = "Instant",
-        cooldown = "2 minutes",
+        cooldown = "1.5 minutes",
         cost = "None",
         dispelType = "n/a",
-        duration = "10 seconds",
+        duration = "20 seconds",
         effect = "Apply Aura: Mod Dodge %\nValue: 30%\n",
         flags = { "Cannot be used while shapeshifted", "Generates no threat" },
         gcd = "0 seconds",
@@ -938,10 +924,10 @@ function getHunterDataTable()
       },
       ["160044"] = {
         castTime = "Instant",
-        cooldown = "2 minutes",
+        cooldown = "1.5 minutes",
         cost = "None",
         dispelType = "n/a",
-        duration = "10 seconds",
+        duration = "20 seconds",
         effect = "Apply Aura: Mod Dodge %\nValue: 30%\n",
         flags = { "Cannot be used while shapeshifted", "Generates no threat" },
         gcd = "0 seconds",
@@ -1030,7 +1016,7 @@ function getHunterDataTable()
         cost = "None",
         dispelType = "n/a",
         duration = "12 seconds",
-        effect = "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)\nValue: -50%\n",
+        effect = "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)\nValue: -50% (SP mod: 0.25)\n",
         flags = { "Unaffected by invulnerability", "Generates no threat" },
         gcd = "0 seconds",
         gcdCategory = "n/a",
@@ -1071,7 +1057,7 @@ function getHunterDataTable()
         icon = "inv_misc_web_01",
         mechanic = "Snared",
         name = "Web Spray",
-        range = "25 yards (Medium-Short)",
+        range = "5 yards (Combat)",
         rank = "Special Ability",
         school = "Physical",
         screenshot = 0
@@ -1082,7 +1068,7 @@ function getHunterDataTable()
         cost = "25 Focus",
         dispelType = "n/a",
         duration = "n/a",
-        effect = "School Damage&nbsp;(Physical)\nValue: 1\n",
+        effect = "School Damage&nbsp;(Physical)",
         flags = { "Cannot be used while shapeshifted" },
         gcd = "1 second",
         gcdCategory = "Normal",
@@ -1100,7 +1086,7 @@ function getHunterDataTable()
         cost = "25 Focus",
         dispelType = "n/a",
         duration = "n/a",
-        effect = "School Damage&nbsp;(Physical)\nValue: 1\n",
+        effect = "School Damage&nbsp;(Physical)",
         flags = { "Cannot be used while shapeshifted" },
         gcd = "1 second",
         gcdCategory = "Normal",
@@ -1142,7 +1128,7 @@ function getHunterDataTable()
         duration = "n/a",
         effect1 = "Apply Aura: Stealth\nValue: 100\n",
         effect2 = "Apply Aura: Decrease Run Speed %\nValue: -50%\n",
-        effect3 = "Apply Aura: Mod Damage Done % (Arcane, Physical)\nValue: 20%\n",
+        effect3 = "Apply Aura: Mod Damage Done % (Arcane, Physical)\nValue: 20% (SP mod: 0.25)\n",
         flags = { "Cannot be used while shapeshifted", "Stops auto-attack", "Starts cooldown after aura fades", "Can be used while sitting", "Cannot be used in combat", "Generates no threat" },
         gcd = "0 seconds",
         gcdCategory = "Special",
@@ -1160,11 +1146,11 @@ function getHunterDataTable()
         cost = "None",
         dispelType = "n/a",
         duration = "12 seconds",
-        effect = "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)\nValue: -50%\n",
+        effect = "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)\nValue: -50% (SP mod: 0.25)\n",
         flags = { "Unaffected by invulnerability", "Generates no threat" },
         gcd = "0 seconds",
         gcdCategory = "n/a",
-        icon = "ability_hunter_pet_turtle",
+        icon = "inv_shield_21",
         mechanic = "n/a",
         name = "Shell Shield",
         range = "0 yards (Self)",
@@ -1359,11 +1345,11 @@ function getHunterDataTable()
         flags = { "Cannot be used while shapeshifted" },
         gcd = "0 seconds",
         gcdCategory = "Normal",
-        icon = "",
+        icon = "ability_poisons",
         mechanic = "n/a",
-        name = "",
+        name = "Toxic Sting",
         range = "5 yards (Combat)",
-        rank = "",
+        rank = "Special Ability",
         school = "Physical",
         screenshot = 0
       },
@@ -1696,11 +1682,11 @@ function getHunterDataTable()
         flags = { "Cannot be used while shapeshifted" },
         gcd = "1 second",
         gcdCategory = "Normal",
-        icon = "",
+        icon = "inv_misc_food_96_zangarcaps",
         mechanic = "n/a",
-        name = "",
+        name = "Spore Cloud",
         range = "5 yards (Combat)",
-        rank = "",
+        rank = "Special Ability",
         school = "Nature",
         screenshot = 0
       },
@@ -1753,11 +1739,11 @@ function getHunterDataTable()
         flags = { "Cannot be used while shapeshifted" },
         gcd = "1 second",
         gcdCategory = "Normal",
-        icon = "",
+        icon = "ability_mage_netherwindpresence",
         mechanic = "n/a",
-        name = "",
+        name = "Nether Shock",
         range = "5 yards (Combat)",
-        rank = "",
+        rank = "Special Ability",
         school = "Nature",
         screenshot = 0
       },
@@ -1823,8 +1809,8 @@ function getHunterDataTable()
         cost = "None",
         dispelType = "n/a",
         duration = "3 seconds",
-        effect1 = "Threat\nValue: 1\n",
-        effect2 = "Taunt\nMechanic: Healing\n",
+        effect1 = "Threat",
+        effect2 = "Taunt (SP mod: 0.25)\nMechanic: Healing\n",
         effect3 = "Apply Aura: Taunt\nValue: 400\nMechanic: Healing\n",
         flags = { "Cannot be used while shapeshifted", "Cannot be reflected", "All spell effects are harmful" },
         gcd = "0 seconds",
@@ -1865,11 +1851,11 @@ function getHunterDataTable()
         flags = { "Passive spell" },
         gcd = "0 seconds",
         gcdCategory = "n/a",
-        icon = "",
+        icon = "trade_archaeology_blacktrilobite",
         mechanic = "n/a",
-        name = "",
+        name = "Calcified Carapace",
         range = "0 yards (Self)",
-        rank = "",
+        rank = "Exotic Passive",
         school = "Physical",
         screenshot = 0
       },
@@ -1901,11 +1887,11 @@ function getHunterDataTable()
         flags = { "Cannot be used while shapeshifted", "Generates no threat" },
         gcd = "0 seconds",
         gcdCategory = "n/a",
-        icon = "",
+        icon = "spell_nature_insect_swarm2",
         mechanic = "n/a",
-        name = "",
+        name = "Swarm of Flies",
         range = "0 yards (Self)",
-        rank = "",
+        rank = "Special Ability",
         school = "Physical",
         screenshot = 0
       },
@@ -1923,11 +1909,11 @@ function getHunterDataTable()
         flags = { "Cannot be used while shapeshifted" },
         gcd = "0 seconds",
         gcdCategory = "Normal",
-        icon = "",
+        icon = "inv_misc_bone_09",
         mechanic = "n/a",
-        name = "",
+        name = "Grievous Bite",
         range = "5 yards (Combat)",
-        rank = "",
+        rank = "Special Ability",
         school = "Physical",
         screenshot = 0
       },
@@ -1947,11 +1933,11 @@ function getHunterDataTable()
         flags = { "Passive spell", "Generates no threat" },
         gcd = "0 seconds",
         gcdCategory = "n/a",
-        icon = "",
+        icon = "inv_skinning_80_coarseleather",
         mechanic = "n/a",
-        name = "",
+        name = "Ancient Hide",
         range = "100 yards (Vision)",
-        rank = "",
+        rank = "Special Ability",
         school = "Physical",
         screenshot = 0
       },
@@ -1965,11 +1951,11 @@ function getHunterDataTable()
         flags = { "Unaffected by invulnerability", "Generates no threat" },
         gcd = "0 seconds",
         gcdCategory = "n/a",
-        icon = "",
+        icon = "inv_shield_18",
         mechanic = "n/a",
-        name = "",
+        name = "Bulwark",
         range = "0 yards (Self)",
-        rank = "",
+        rank = "Special Ability",
         school = "Physical",
         screenshot = 0
       },
@@ -2012,7 +1998,7 @@ function getHunterDataTable()
       },
       ["35346"] = {
         castTime = "Instant",
-        cooldown = "15 seconds",
+        cooldown = "10 seconds",
         cost = "None",
         dispelType = "n/a",
         duration = "6 seconds",
@@ -2023,7 +2009,7 @@ function getHunterDataTable()
         icon = "spell_arcane_arcane04",
         mechanic = "n/a",
         name = "Warp Time",
-        range = "25 yards (Medium-Short)",
+        range = "5 yards (Combat)",
         rank = "Special Ability",
         school = "Arcane",
         screenshot = 0
@@ -2034,7 +2020,7 @@ function getHunterDataTable()
         cost = "25 Focus",
         dispelType = "n/a",
         duration = "n/a",
-        effect = "School Damage&nbsp;(Physical)\nValue: 1\n",
+        effect = "School Damage&nbsp;(Physical)",
         flags = { "Cannot be used while shapeshifted" },
         gcd = "1 second",
         gcdCategory = "Normal",
@@ -2074,13 +2060,13 @@ function getHunterDataTable()
         effect = "Apply Aura: Decrease Run Speed %\nValue: -50%\n",
         gcd = "0 seconds",
         gcdCategory = "n/a",
-        icon = "",
+        icon = "inv_misc_dust",
         mechanic = "n/a",
-        name = "",
+        name = "Dust Cloud",
         range = "5 yards (Combat)",
-        rank = "",
+        rank = "Special Ability",
         school = "Nature",
-        screenshot = 0
+        screenshot = 131119
       },
       ["50433"] = {
         castTime = "Instant",
@@ -2104,7 +2090,7 @@ function getHunterDataTable()
         cooldown = "10 seconds",
         cost = "None",
         dispelType = "Magic",
-        duration = "5 seconds",
+        duration = "6 seconds",
         effect1 = "Apply Aura: Decrease Run Speed %\nValue: -50%\nMechanic: Snared\n",
         effect2 = {
           description = "Trigger Spell",
@@ -2113,7 +2099,7 @@ function getHunterDataTable()
         },
         gcd = "0 seconds",
         gcdCategory = "n/a",
-        icon = "spell_nature_lightning",
+        icon = "spell_frost_chillingblast",
         mechanic = "Snared",
         name = "Frost Breath",
         range = "30 yards (Medium)",
@@ -2126,8 +2112,12 @@ function getHunterDataTable()
         cooldown = "8 seconds",
         cost = "None",
         dispelType = "n/a",
-        duration = "10 seconds",
-        effect = "Apply Aura: Mod Healing Taken - % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)\nValue: -25%\n",
+        duration = "n/a",
+        effect = {
+          description = "Trigger Spell",
+          spellId = "115804",
+          spellName = "Mortal Wounds"
+        },
         flags = { "Cannot be used while shapeshifted" },
         gcd = "0 seconds",
         gcdCategory = "Normal",
@@ -2135,16 +2125,16 @@ function getHunterDataTable()
         mechanic = "n/a",
         name = "Monstrous Bite",
         range = "5 yards (Combat)",
-        rank = "Exotic Ability",
+        rank = "Special Ability",
         school = "Physical",
         screenshot = 0
       },
       ["61684"] = {
         castTime = "Instant",
-        cooldown = "32 seconds",
+        cooldown = "20 seconds",
         cost = "None",
         dispelType = "n/a",
-        duration = "16 seconds",
+        duration = "10 seconds",
         effect = "Apply Aura: Increase Run Speed %\nValue: 80%\n",
         flags = { "Does not break stealth", "Generates no threat" },
         gcd = "0 seconds",
@@ -2153,7 +2143,7 @@ function getHunterDataTable()
         mechanic = "n/a",
         name = "Dash",
         range = "0 yards (Self)",
-        rank = "Ferocity, Cunning Ability",
+        rank = "Basic Ability",
         school = "Physical",
         screenshot = 0
       },
@@ -2163,7 +2153,7 @@ function getHunterDataTable()
         cost = "None",
         dispelType = "n/a",
         duration = "n/a",
-        effect = "Apply Aura: Increase Max Power - Flat&nbsp;(Focus)",
+        effect = "Apply Aura: Increase Max Power - Flat&nbsp;(Focus) (SP mod: 0.25)\n",
         flags = { "Passive spell", "Aura is hidden", "Cast time is hidden" },
         gcd = "0 seconds",
         gcdCategory = "n/a",
@@ -2183,7 +2173,7 @@ function getHunterDataTable()
         duration = "n/a",
         effect1 = "Apply Aura: Stealth\nValue: 50\n",
         effect2 = "Apply Aura: Decrease Run Speed %\nValue: -50%\n",
-        effect3 = "Apply Aura: Mod Damage Done % (Arcane, Physical)\nValue: 20%\n",
+        effect3 = "Apply Aura: Mod Damage Done % (Arcane, Physical)\nValue: 20% (SP mod: 0.25)\n",
         flags = { "Cannot be used while shapeshifted", "Stops auto-attack", "Starts cooldown after aura fades", "Can be used while sitting", "Cannot be used in combat", "Generates no threat" },
         gcd = "0 seconds",
         gcdCategory = "Special",
@@ -2201,7 +2191,7 @@ function getHunterDataTable()
         cost = "None",
         dispelType = "n/a",
         duration = "12 seconds",
-        effect = "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)\nValue: -50%\n",
+        effect = "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)\nValue: -50% (SP mod: 0.25)\n",
         flags = { "Unaffected by invulnerability", "Generates no threat" },
         gcd = "0 seconds",
         gcdCategory = "n/a",
@@ -2237,8 +2227,8 @@ function getHunterDataTable()
         cost = "5 Focus",
         dispelType = "Magic",
         duration = "10 seconds",
-        effect1 = "Heal\nValue: 1\n",
-        effect2 = "Apply Aura: Periodic Heal\nValue: 1 every 2 seconds\n",
+        effect1 = "Heal",
+        effect2 = "Apply Aura: Periodic Heal\nInterval: 2 seconds\n",
         flags = { "Cannot be used while shapeshifted", "Does not require shapeshift" },
         gcd = "0 seconds",
         gcdCategory = "n/a",
